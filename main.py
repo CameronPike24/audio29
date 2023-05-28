@@ -174,7 +174,7 @@ class AudioTool(BoxLayout):
         self.sound.start()
         print("start play")
         e = datetime.now()
-        e = .strftime("%d_%m_%Y_%H%M%S")
+        e = strftime("%d_%m_%Y_%H%M%S")
        
         print("time of start playing audio")
         print(e)
