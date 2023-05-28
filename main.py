@@ -87,7 +87,7 @@ class MyRecorder:
         #self.mRecorder.setOutputFile('/sdcard/MYAUDIO_{}.3gp'.format(d))
         self.mRecorder.setAudioEncoder(self.AudioEncoder.AMR_NB)
         self.mRecorder.prepare()
-        print(mRecorder)
+        #print(mRecorder)
  
  
  
