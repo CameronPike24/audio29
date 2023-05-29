@@ -153,8 +153,8 @@ class AudioTool(BoxLayout):
         self.stop_button.disabled = True #TUT 3
         self.switch.disabled = False #TUT 3 re enable the switch
         print("stopped recording")
-        d = datetime.now()
-        d = d.strftime("%d_%m_%Y_%H%M%S")
+  
+        d = datetime.now().strftime('%d-%m-%Y %H:%M:%S')
        
         print("time of recording finished")
         print(d)
@@ -173,8 +173,8 @@ class AudioTool(BoxLayout):
         self.sound.setLooping(False) #you can set it to true if you want to loop
         self.sound.start()
         print("start play")
-        e = datetime.now()
-        e = strftime("%d_%m_%Y_%H%M%S")
+
+        e = datetime.now().strftime('%d-%m-%Y %H:%M:%S')
        
         print("time of start playing audio")
         print(e)
